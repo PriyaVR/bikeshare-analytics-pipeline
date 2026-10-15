@@ -12,5 +12,5 @@ End-to-end data pipeline: Databricks (bronze/silver/gold) + Power BI reporting.
 ## Status
 - ✅ Bronze layer: raw trips and weather loaded as Delta tables
 - ✅ Silver layer: cleaning, deduplication, weather join
-- ⏳ Gold layer: star schema
+- ✅ Gold layer: star schema (dim_date, dim_station, dim_user_type, fact_trips)
 - ⏳ Power BI: DAX measures and report
